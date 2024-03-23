@@ -68,7 +68,7 @@
 ![](./schemes/bl.svg)
 
 ## Тип приложения
-Web - приложение
+Web SPA
 
 ## Технологический стек
 - Backend: Python
