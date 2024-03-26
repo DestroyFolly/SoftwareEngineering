@@ -14,7 +14,7 @@
 |-------------|---|---|---|
 | [DDX fitness](https://www.ddxfitness.ru/)    | + | - | + |
 | [O2 fitness](https://o2sport.ru/)| - | - | + |
-| [World class](https://www.worldclass.ru/) | + | - | + |
+| [World class fitness](https://www.worldclass.ru/) | + | - | + |
 | Предлагаемое решение  | + | + | + |
 
 ## Обоснование целесообразности и актуальности проекта
