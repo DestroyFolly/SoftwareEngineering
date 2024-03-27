@@ -81,6 +81,6 @@ Web SPA
 - Компонент реализации бизнес-логики (Business Logic)
 - Компонент доступа к данным (Data Access)
   
-
+![](./schemes/svg/top_level_components.svg)  
 ## Диаграмма классов
 
