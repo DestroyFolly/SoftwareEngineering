@@ -84,4 +84,4 @@ Web SPA
 ![](./schemes/top_level_components.svg)  
 ## Диаграмма классов
 
-![](./schemes/UML.svg)  
+![](./schemes/U.svg)  
