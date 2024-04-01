@@ -72,7 +72,7 @@ Web SPA
 
 ## Технологический стек
 - Backend: Python
-- Frontend: HTML + CSS 
+- Frontend: HTML+CSS 
 - Database: PostgreSQL
   
 ## Верхнеуровневое разбиение на компоненты
