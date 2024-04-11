@@ -4,18 +4,18 @@ class TrainService:
 
 
     def GetTrainByID(self, id):
-        train, err = self.repo.GetTrainByID(id)
+        train = self.repo.GetTrainByID(id)
 
-        if err is not None:
-            return None, err
-
-        return train, None
+        if train is not None:
+            return train
+        else:
+            return "Тренировка не найдена"
 
 
     def GetListOfTrains(self, date):
-        trains, err = self.repo.GetListOfTrains(date)
+        trains = self.repo.GetListOfTrains(date)
 
-        if err is not None:
-            return None, err
-
-        return trains, None
+        if trains is not None:
+            return trains
+        else:
+            return "В эту дату нет тренировок"

@@ -5,5 +5,8 @@ class UserRepository:
     def GetExById(self, id):
         pass
 
+    def GetExByName(self, name):
+        pass
+
     def GetListOfTrains(self, difficulty):
         pass

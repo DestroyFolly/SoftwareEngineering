@@ -4,12 +4,20 @@ class ExerciseService:
 
 
     def GetExByID(self, id):
-        user, err = self.repo.GetExByID(id)
+        ex = self.repo.GetExByID(id)
 
-        if err is not None:
-            return None, err
+        if ex is not None:
+            return ex
+        else:
+            return "Упражнение не было найдено"
 
-        return user, None
+    def GetExByName(self, name):
+        ex = self.repo.GetExByName(name)
+
+        if ex is not None:
+            return ex
+        else:
+            return "Упражнение не было найдено"
 
     def ListExercise(self, difficulty):
         exs, err = self.repo.GetListOfTrains(difficulty)
