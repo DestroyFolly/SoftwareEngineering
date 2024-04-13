@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c3baac-286f-4ae7-bf2c-cd1a090c82aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercise/exercise_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Train/train_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Train/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Train/service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +32,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="src" />
