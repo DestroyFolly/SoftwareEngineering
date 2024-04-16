@@ -2,12 +2,12 @@ class UserRepository:
     def __init__(self):
         pass
 
-    def Create(self, new):
+    def create(self, new):
         pass
 
-    def GetUserById(self, id):
+    def getuserbyid(self, id):
         pass
 
-    def GetUserByEmail(self, email):
+    def getuserbyemail(self, email):
         pass
 

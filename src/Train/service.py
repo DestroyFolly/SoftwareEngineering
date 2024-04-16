@@ -3,8 +3,8 @@ class TrainService:
         self.repo = repo
 
 
-    def GetTrainByID(self, id):
-        train = self.repo.GetTrainByID(id)
+    def gettrainbyid(self, id):
+        train = self.repo.gettrainbyid(id)
 
         if train is not None:
             return train
@@ -12,8 +12,8 @@ class TrainService:
             return "Тренировка не найдена"
 
 
-    def GetListOfTrains(self, date):
-        trains = self.repo.GetListOfTrains(date)
+    def getlistoftrains(self, date):
+        trains = self.repo.getlistoftrains(date)
 
         if trains is not None:
             return trains

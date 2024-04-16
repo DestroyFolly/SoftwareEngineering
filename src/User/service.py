@@ -8,8 +8,8 @@ class UserService:
     def NewUserService(repo):
         return UserService(repo)
 
-    def Login(self, email):
-        user = self.repo.GetUserByEmail(email)
+    def login(self, email):
+        user = self.repo.getuserbyemail(email)
 
 
         if user is None:
@@ -18,8 +18,8 @@ class UserService:
         else:
             return user
 
-    def Register(self, email, password):
-        user = self.repo.GetUserByEmail(email)
+    def register(self, email, password):
+        user = self.repo.getuserbyemail(email)
 
         if user is not None:
             return "user already registered"
@@ -32,8 +32,8 @@ class UserService:
 
         return new_user
 
-    def GetUserByID(self, ctx, id):
-        user, err = self.repo.GetUserByID(id)
+    def getuserbyid(self, id):
+        user, err = self.repo.getuserbyid(id)
 
         if err is not None:
             return err

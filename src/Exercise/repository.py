@@ -2,11 +2,11 @@ class UserRepository:
     def __init__(self):
         pass
 
-    def GetExById(self, id):
+    def getexbyid(self, id):
         pass
 
-    def GetExByName(self, name):
+    def getexbyname(self, name):
         pass
 
-    def GetListOfTrains(self, difficulty):
+    def getlistoftrains(self, difficulty):
         pass

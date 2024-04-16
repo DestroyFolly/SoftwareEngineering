@@ -6,7 +6,7 @@ from model import Exercise
 
 class TestTrainService(unittest.TestCase):
 
-    def setUp(self):
+    def setup(self):
         self.repo = MagicMock()
         self.service = ExerciseService(self.repo)
 

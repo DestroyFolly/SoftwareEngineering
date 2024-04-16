@@ -3,24 +3,24 @@ class ExerciseService:
         self.repo = repo
 
 
-    def GetExByID(self, id):
-        ex = self.repo.GetExByID(id)
+    def getexbyid(self, id):
+        ex = self.repo.getexbyid(id)
 
         if ex is not None:
             return ex
         else:
             return "Упражнение не было найдено"
 
-    def GetExByName(self, name):
-        ex = self.repo.GetExByName(name)
+    def getexbyname(self, name):
+        ex = self.repo.getexbyname(name)
 
         if ex is not None:
             return ex
         else:
             return "Упражнение не было найдено"
 
-    def ListExercise(self, difficulty):
-        exs, err = self.repo.GetListOfTrains(difficulty)
+    def listexercise(self, difficulty):
+        exs, err = self.repo.getlistoftrains(difficulty)
 
         if err is not None:
             return None, err
